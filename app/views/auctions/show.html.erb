@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Доставка:</b>
+  <%= @auction.item %>
+</p>
+
+<p>
+  <b>Откуда:</b>
+  <%= @auction.origin %>
+</p>
+
+<p>
+  <b>Куда:</b>
+  <%= @auction.destination %>
+</p>
+
+<p>
+  <b>Ставки:</b>
+  <%= @auction.bids %>
+</p>
+
+<p>
+  <b>Расстояние:</b>
+  <%= @auction.mileage %>
+</p>
+
+<p>
+  <b>Дата:</b>
+  <%= @auction.date %>
+</p>
+
+
+<%= link_to 'Редактировать', edit_auction_path(@auction) %> |
+<%= link_to 'Назад', auctions_path %>
