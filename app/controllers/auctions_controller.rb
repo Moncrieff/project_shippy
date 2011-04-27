@@ -44,7 +44,7 @@ class AuctionsController < ApplicationController
 
     respond_to do |format|
       if @auction.save
-        format.html { redirect_to(@auction, :notice => 'Запись успешно добавлена.') }
+        format.html { redirect_to(@auction, :notice => 'Entry added successfully.') }
         format.xml  { render :xml => @auction, :status => :created, :location => @auction }
       else
         format.html { render :action => "new" }
@@ -60,7 +60,7 @@ class AuctionsController < ApplicationController
 
     respond_to do |format|
       if @auction.update_attributes(params[:auction])
-        format.html { redirect_to(@auction, :notice => 'Запись успешно изменена.') }
+        format.html { redirect_to(@auction, :notice => 'Entry updated successfully.') }
         format.xml  { head :ok }
       else
         format.html { render :action => "edit" }

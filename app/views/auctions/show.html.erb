@@ -1,35 +1,35 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <b>Доставка:</b>
+  <b>Delivery:</b>
   <%= @auction.item %>
 </p>
 
 <p>
-  <b>Откуда:</b>
+  <b>Origin:</b>
   <%= @auction.origin %>
 </p>
 
 <p>
-  <b>Куда:</b>
+  <b>Destination:</b>
   <%= @auction.destination %>
 </p>
 
 <p>
-  <b>Ставки:</b>
+  <b>Bids:</b>
   <%= @auction.bids %>
 </p>
 
 <p>
-  <b>Расстояние:</b>
+  <b>Mileage:</b>
   <%= @auction.mileage %>
 </p>
 
 <p>
-  <b>Дата:</b>
+  <b>Date:</b>
   <%= @auction.date %>
 </p>
 
 
-<%= link_to 'Редактировать', edit_auction_path(@auction) %> |
-<%= link_to 'Назад', auctions_path %>
+<%= link_to 'Edit', edit_auction_path(@auction) %> |
+<%= link_to 'Back', auctions_path %>
