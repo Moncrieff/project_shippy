@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>fileTriggers</key>
+        <dict>
+            <key>app</key>
+            <string>..\blog\config\application.rb</string>
+            <key>gem</key>
+            <string>Gemfile</string>
+            <key>gemfi</key>
+            <string>Gemfile</string>
+            <key>post</key>
+            <string>..\blog\app\models\post.rb</string>
+            <key>rake</key>
+            <string>Rakefile</string>
+            <key>rout</key>
+            <string>config\routes.rb</string>
+            <key>route</key>
+            <string>config\routes.rb</string>
+            <key>routes</key>
+            <string>config\routes.rb</string>
+        </dict>
+    </dict>
+</plist>
