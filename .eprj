@@ -8,6 +8,8 @@
             <string>..\blog\config\application.rb</string>
             <key>gem</key>
             <string>Gemfile</string>
+            <key>gemf</key>
+            <string>Gemfile</string>
             <key>gemfi</key>
             <string>Gemfile</string>
             <key>post</key>

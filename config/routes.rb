@@ -4,10 +4,10 @@ ProjectShippy::Application.routes.draw do
   root :to => "auctions#index"
   
   get 'pages/home'
-  get 'pages/about'
-  get 'pages/contact'
-  get 'pages/signin'
-  get 'pages/signup'
+  match 'about' => 'pages#about'
+  match 'signin' => 'pages#signin'
+  match 'contact' => 'pages#contact'
+  match 'signup' => 'pages#signup'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
