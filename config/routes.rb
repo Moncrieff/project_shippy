@@ -1,9 +1,9 @@
 ProjectShippy::Application.routes.draw do
   resources :auctions
   
-  root :to => "auctions#index"
+  root :to => "pages#home"
   
-  get 'pages/home'
+  #get 'pages/home'
   match 'about' => 'pages#about'
   match 'signin' => 'pages#signin'
   match 'contact' => 'pages#contact'

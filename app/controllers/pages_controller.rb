@@ -1,6 +1,7 @@
 class PagesController < ApplicationController
   def home
     @title = "Home"
+    @auctions = Auction.all
   end
 
   def about
@@ -17,7 +18,6 @@ class PagesController < ApplicationController
   
   def signup
     @title = "Sign up"
-    
   end
 
 end
