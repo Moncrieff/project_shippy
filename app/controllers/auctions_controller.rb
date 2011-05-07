@@ -2,6 +2,7 @@ class AuctionsController < ApplicationController
   # GET /auctions
   # GET /auctions.xml
   def index
+    @title = "Home"
     @auctions = Auction.all
 
     respond_to do |format|

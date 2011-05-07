@@ -1,8 +1,4 @@
 class PagesController < ApplicationController
-  def home
-    @title = "Home"
-    @auctions = Auction.all
-  end
 
   def about
     @title = "About"
@@ -11,13 +7,4 @@ class PagesController < ApplicationController
   def contact
     @title = "Contacts"
   end
-  
-  def signin
-    @title = "Sign in"
-  end
-  
-  def signup
-    @title = "Sign up"
-  end
-
 end

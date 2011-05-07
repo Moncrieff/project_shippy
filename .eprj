@@ -12,6 +12,8 @@
             <string>Gemfile</string>
             <key>gemfi</key>
             <string>Gemfile</string>
+            <key>gemfil</key>
+            <string>Gemfile</string>
             <key>post</key>
             <string>..\blog\app\models\post.rb</string>
             <key>rake</key>
