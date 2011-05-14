@@ -5,7 +5,6 @@ class UsersController < ApplicationController
   end
 
   def show
-    @title = "Show"
     @user = User.find(params[:id])
   end
 
