@@ -25,3 +25,28 @@ REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"name"=>"", 
 REQUESTING PAGE: GET /signup with {} and HTTP headers {}
 REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"name"=>"Michael Hitchinson", "email"=>"michael@hitchinson.com", "password"=>"michael", "password_confirmation"=>"michael"}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
 REQUESTING PAGE: GET http://www.example.com/users/1 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"name"=>"Michael Hitchinson", "email"=>"michael@hitchinson.com", "password"=>"michael", "password_confirmation"=>"michael"}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/1 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"name"=>"Michael Hitchinson", "email"=>"michael@hitchinson.com", "password"=>"michael", "password_confirmation"=>"michael"}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/1 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"name"=>"Michael Hitchinson", "email"=>"michael@hitchinson.com", "password"=>"michael", "password_confirmation"=>"michael"}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/1 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"name"=>"Michael Hitchinson", "email"=>"michael@hitchinson.com", "password"=>"michael", "password_confirmation"=>"michael"}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/1 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"name"=>"Michael Hitchinson", "email"=>"michael@hitchinson.com", "password"=>"michael", "password_confirmation"=>"michael"}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/1 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
