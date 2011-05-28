@@ -6,8 +6,8 @@
 #   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
 #   Mayor.create(:name => 'Daley', :city => cities.first)
 # coding: utf-8
-Auction.delete_all
+#Auction.delete_all
 
-Auction.create(:item => 'Херотень номер один', :origin => 'Санкт-Петербург, улица Чмошная, д.1',
-               :destination => 'Воронеж, улица Херовая, 52', :bids => 3, :mileage => 512.35, 
-               :date => 28/07/2011)
+#Auction.create(:item => 'Херотень номер один', :origin => 'Санкт-Петербург, улица Чмошная, д.1',
+#               :destination => 'Воронеж, улица Херовая, 52', :bids => 3, :mileage => 512.35, 
+#               :date => 28/07/2011)
