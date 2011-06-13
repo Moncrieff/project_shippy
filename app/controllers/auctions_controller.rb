@@ -1,4 +1,7 @@
 class AuctionsController < ApplicationController
+  
+  before_filter :authenticate_user!, :except => [:index, :show]
+  
   # GET /auctions
   # GET /auctions.xml
   def index

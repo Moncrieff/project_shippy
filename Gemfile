@@ -2,6 +2,7 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.0.4'
 gem 'will_paginate', '3.0.pre2'
+gem 'devise', '1.3.4'
 
 group :development do
   gem 'rspec-rails', '2.5.0'

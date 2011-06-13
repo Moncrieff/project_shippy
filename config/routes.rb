@@ -1,8 +1,10 @@
 ProjectShippy::Application.routes.draw do
   
-  resources :sessions, :only => [:new, :create, :destroy]
+  devise_for :users
 
-  resources :users 
+  #resources :sessions, :only => [:new, :create, :destroy]
+
+  #resources :users 
 
   resources :auctions
   
@@ -11,10 +13,10 @@ ProjectShippy::Application.routes.draw do
   match 'about' => 'pages#about'
   match 'contacts' => 'pages#contact'
 
-  match 'signup' => 'users#new'
+  #match 'signup' => 'users#new'
   
-  match 'signin' => 'sessions#new'
-  match 'signout' => 'sessions#destroy'
+  #match 'signin' => 'sessions#new'
+  #match 'signout' => 'sessions#destroy'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

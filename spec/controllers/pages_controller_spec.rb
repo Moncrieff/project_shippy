@@ -5,7 +5,7 @@ describe PagesController do
 
   describe "GET 'about'" do
     it "should be successful" do
-      get 'about'
+      get :about
       response.should be_success
     end
     

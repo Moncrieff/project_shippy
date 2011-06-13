@@ -1,0 +1,8 @@
+<h1>Edit user</h1>
+
+<%= form_for(@user) do |f| %>
+	<%= render 'fields', :f => f %>
+	<div>
+	 <%= f.submit "Update" %><br />
+	</div>
+<% end %>
